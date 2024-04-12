@@ -15,20 +15,23 @@ Pour créer et inviter le bot Discord sur un serveur où vous avez des droits AD
 ```bash
 py -m venv .venv        
 .\.venv\Scripts\activate
-
+```
 ### Installation des dépendances
+```bash
 pip install -r requirements.txt
-
+```
 ### Configuration des variables d'environnement
 Créez un fichier .env à la racine du projet et ajoutez vos clés :
+```bash
 brave_key = 'Votre_clé_Brave'
 OPENAI_API_TOKEN= 'Votre_token_OpenAI'
 discord_key = 'Votre_clé_Discord'
-
+```
 ## Démarrage du bot
 Pour démarrer le bot, exécutez :
+```bash
 python bot.py
-
+```
 ## Améliorations futures
 ### Personnalisation du bot :
 Ajouter la possibilité de configurer la personnalité du bot dans les prompts envoyés à OpenAI pour qu'il réponde avec des nuances spécifiques, comme une touche d'humour.
