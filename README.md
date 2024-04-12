@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# Bot_discord_RAG
-Création d'un bot discord interfacé avec OpenAi et Brave
+# Création d'un bot discord interfacé avec OpenAi et Brave
+
 
 # 1) Création du BOT Discord
 https://discordpy.readthedocs.io/en/latest/discord.html
@@ -20,10 +19,8 @@ py -m venv .venv
 pip install -r requirements.txt
  
  # ajouter les clés API
- Créer un fichier .env contenant 
+Créer un fichier .env contenant 
  brave_key = ''
-OPENAI_API_TOKEN= ''
-discord_key = ''
-=======
-# Projet_Ragnarok
->>>>>>> d145336 (first commit)
+ OPENAI_API_TOKEN= ''
+ discord_key = ''
+
