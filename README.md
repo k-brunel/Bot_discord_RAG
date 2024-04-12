@@ -39,5 +39,5 @@ Ajouter la possibilité de configurer la personnalité du bot dans les prompts e
 ### Amélioration de la récupération des données :
 Enrichir les données extraites de Brave en implémentant un scraping plus avancé des résultats de recherche.
 
-###Reconnaissance de fichiers :
+### Reconnaissance de fichiers :
 Intégrer une fonctionnalité de reconnaissance visuelle en utilisant GPT-4 pour permettre au bot d'analyser et de répondre à des images ou d'autres types de fichiers multimédias.
