@@ -14,7 +14,7 @@ Pour créer et inviter le bot Discord sur un serveur où vous avez des droits AD
 ### Initialisation de l'environnement virtuel
 ```bash
 py -m venv .venv        
-.\.venv\Scripts\activate
+.\.venv\Scripts\Activate.ps1
 ```
 ### Installation des dépendances
 ```bash
