@@ -52,7 +52,7 @@ Pour sécuriser les clés API et permettre le déploiement automatique, nous uti
    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    ````
 2. Lorsque vous êtes invité à saisir un fichier pour enregistrer la clé, vous pouvez appuyer sur Entrée pour utiliser l'emplacement par défaut.
-3. Ajoutez la clé publique (`id_rsa.pub`) à votre VM Azure sous `~/.ssh/authorized_akeys`.
+3. Ajoutez la clé publique (`id_rsa.pub`) à votre VM Azure sous `~/.ssh/authorized_keys`.
 
 ## Préparation de l'environnement de développement
 1. Clonez votre dépôt GitHub sur votre machine locale.
